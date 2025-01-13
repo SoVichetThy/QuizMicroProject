@@ -42,6 +42,7 @@ class Question {
       this.id, this.type, this.title, this.possibleChoices, this.goodChoices);
 
   Question.singleChoice({
+    
     required String id,
     required String title,
     required List<String> possibleChoices,

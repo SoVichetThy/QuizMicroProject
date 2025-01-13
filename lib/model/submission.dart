@@ -7,7 +7,9 @@ class Submision {
 
   Submision({
     required this.participant,
+
     required this.quizId,
+    
     required this.dateTime,
      List<Answer>? anwers,
   })  : anwers = anwers ?? [];
